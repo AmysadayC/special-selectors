@@ -11,5 +11,18 @@
     font-size: 80px;
 }
 
-/* Add your CSS styles below this line */
+/*Add your CSS styles below this line */
 
+a {
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: rgb(253, 228, 219);
+    color: coral;
+    border: 2px solid coral;
+}

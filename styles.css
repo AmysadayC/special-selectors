@@ -1,0 +1,38 @@
+li {
+    background-color: rgba(0, 15, 90, 0.534);
+}
+
+
+
+li:hover {
+    background-color: rgb(0, 68, 255);
+    font-size: 25px;
+}
+
+
+li:active {
+    background-color: rgb(0, 34, 255);
+    font-size: 34px;
+}
+
+
+li::before {
+    content: "✅";
+}
+
+
+li:hover::after {
+    content:"Pick Me!! Pick Me!!";
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+
+li:active::after {
+    content: "Yay!!!";
+}
+
+
+li:active::before {
+    content: "🦢";
+}
