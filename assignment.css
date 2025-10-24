@@ -26,3 +26,11 @@ a:hover {
     color: coral;
     border: 2px solid coral;
 }
+
+.card::before {
+    content: "SALE";
+    background-color: red;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 15px;
+} 
